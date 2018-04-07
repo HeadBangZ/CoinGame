@@ -1,0 +1,110 @@
+body {
+    background: #222;
+    width: 100vw;
+    height: 100%;
+    margin: 100px auto 0 auto;
+    display: flex;
+    justify-content: center;
+    color: #fff;
+}
+
+p {
+    font-size: 1.1em;
+}
+
+canvas {
+    background: skyblue;
+    width: 700px;
+    height: 700px;
+    border: 10px solid #fff;
+}
+
+#menu {
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    background: #000;
+    border: 5px solid #fff;
+    border-radius: 25px;
+    top: calc(50% - 250px);
+    text-align: center;
+}
+
+.highscore {
+    width: 150px;
+    height: 100px;
+    margin: 0 auto;
+    border-radius: 10px;
+    background: skyblue;
+    color: #000;
+}
+
+.highscore h2 {
+    padding-top: 10px;
+}
+
+.highscore p {
+    font-size: 1.4em;
+    text-decoration: underline;
+}
+
+button {
+    margin-top: 10px;
+    padding: 15px 60px;
+    border: 1px solid skyblue;
+    border-radius: 10px;
+    background: #000;
+    color: skyblue;
+    font-weight: bold;
+    font-size: 1.1em;
+    text-transform: uppercase;
+    letter-spacing: 0.2em;
+}
+
+button:hover,
+button:focus {
+    color: #000;
+    background: skyblue;
+    outline: none;
+}
+
+#points {
+    position: absolute;
+    font-size: 100px;
+    color: #fff;
+    bottom: 130px;
+    right: 25%;
+    z-index: 3;
+}
+
+#gameOver {
+    position: absolute;
+    text-align: center;
+    display: none;
+}
+
+#gameOverText {
+    font-size: 1.3em;
+    color: #000;
+}
+
+.title {
+    font-size: 50px;
+    color: #000;
+    font-style: italic;
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+#restart {
+    border: 1px solid #000;
+    font-size: 1.5em;
+    border-radius: 5px;
+    color: #000;
+    cursor: pointer;
+}
+
+#restart:hover {
+    color: skyblue;
+    background: #000;
+}

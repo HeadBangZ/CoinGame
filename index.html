@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="style.css">
+    <title>CoinCatcher</title>
+</head>
+
+<body>
+    <div id="menu">
+        <h1>Coin Catch</h1>
+        <div class="highscore">
+            <h2>Highscore</h2>
+            <p id="highscoreResult"></p>
+        </div>
+        <p>Catch as many coins as possible during the timelimit.</p>
+        <p>Use your mouse.</p>
+        <button id="start">Start</button>
+    </div>
+    <section id="gameOver">
+        <h1 class="title">GAME OVER!</h1>
+        <p id="gameOverText"></p>
+        <h3 id="restart">Restart?</h3>
+    </section>
+    <canvas id="gameCanvas">
+    </canvas>
+    <!-- <div id="points"></div> -->
+
+    <script src=" https://code.createjs.com/1.0.0/createjs.min.js"></script>
+    <script src="main.js"></script>
+</body>
+
+</html>
